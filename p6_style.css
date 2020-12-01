@@ -1,0 +1,263 @@
+.div-nav{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    z-index: 1;
+    background-color: white;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+nav.top-nav {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    padding-left: 2em;
+}
+
+nav.top-nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav.top-nav li {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    display: inline-block;
+    padding: 2px;
+    user-select: none;
+    position: relative;
+
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline aqua;
+}
+
+#name{
+    float: left;
+    color: mediumslateblue;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.tab{
+    float: right;
+    width: 100px;
+}
+.intro-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    height: 300px;
+    padding: 80px;
+    grid-column-gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    z-index: 0.5;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#short_bio{
+
+    font-family: proxima-nova;
+    font-size: 30px;
+    width: 500px;
+
+
+}
+#accompanying{
+
+    width: 50%;
+    height: 50%;
+}
+#short_bio_pic{
+    width: 400px;
+    height: 400px;
+    border-radius: 100px 100px 100px 100px;
+}
+.project-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    height: 300px;
+    padding: 80px;
+    grid-column-gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#short-description{
+
+    font-family: poppins;
+    font-size: 30px;
+    width: 500px;
+}
+#short-description a{
+    color: black;
+}
+#short-description a:hover{
+    color: mediumslateblue;
+}
+.bio_text a{
+    color: black;
+}
+.bio_text a:hover{
+    color: mediumslateblue;
+}
+#project-poster{
+
+    width: 50%;
+    height: 50%;
+}
+#poster{
+    width: 400px;
+    height: 400px;
+}
+.poster_bio{
+    width: 400px;
+}
+#bio_poster{
+    width: 450px;
+
+}
+.bio_text{
+    font-family: poppins;
+    font-size: 20px;
+    width: 500px;
+}
+.bio-paragraph{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    grid-column-gap: 150px;
+
+    margin-top: 100px;
+}
+#header{
+    color: #328EF1;
+}
+.origins{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    grid-column-gap: 100px;
+    margin-top: 400px;
+}
+.origins-text{
+    font-family: poppins;
+    font-size: 20px;
+    width: 500px;
+}
+.origins-pic{
+    width: 450px;
+}
+#Burundi-poster{
+    width: 450px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: -5px;
+    padding: 40px;
+    height: 120px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+
+}
+#icon{
+    width: 20px;
+}
+.contact{
+    text-align: center;
+    font-family: poppins;
+    font-size: 25px;
+    padding: 40px;
+}
+.description{
+    font-family: poppins;
+    font-size: 20px;
+    padding: 40px;
+    width: 80%;
+}
+#video{
+    width: 720px;
+    width: 480px;
+}
+.description a{
+    color: black;
+}
+.description a:hover{
+    color: mediumslateblue;
+}
+#video2{
+    width: 1080px;
+    width: 720px;
+}
+#calendar{
+    border: 0;
+}
